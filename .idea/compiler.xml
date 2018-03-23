@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="VVSS_bnie1869" target="1.5" />
+      <module name="VVSS_bnie1869" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
