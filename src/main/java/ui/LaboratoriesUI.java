@@ -1,17 +1,16 @@
 package ui;
 
+import controller.LaboratoriesController;
+import model.Laboratory;
+import model.Student;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.List;
 
 //import com.sun.org.apache.xpath.internal.operations.Bool;
-import controller.LaboratoriesController;
-import model.Laboratory;
-import model.Student;
-import validator.Validator;
 
 public class LaboratoriesUI {
 	private LaboratoriesController controller;
