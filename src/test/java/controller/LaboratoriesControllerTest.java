@@ -1,12 +1,118 @@
 package controller;
 
+import model.Student;
+
+import java.io.File;
+
+import static junit.framework.TestCase.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 /**
  * Created by Nicu on 23-Mar-18.
  */
 public class LaboratoriesControllerTest {
-    @org.junit.Test
-    public void saveStudent() throws Exception {
 
+    @org.junit.Test
+    public void saveStudentTestCase1() throws Exception {
+        File f = new File("test1.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test1.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Johnny Bravo", 932);
+        assertTrue(controller.saveStudent(s));
+        assertTrue(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase2() throws Exception {
+        File f = new File("test2.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test2.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "abcd", 935);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase3() throws Exception {
+        File f = new File("test3.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test3.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "abcd 1234escu", 938);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase4() throws Exception {
+        File f = new File("test4.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test4.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Ion Ionescu", 0);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase5() throws Exception {
+        File f = new File("test5.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test5.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Ion Ionescu", 1000);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase6() throws Exception {
+        File f = new File("test6.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test6.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Ion Ionescu", 414124);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+    }
+
+
+    @org.junit.Test
+    public void saveStudentTestCase7() throws Exception {
+        File f = new File("test7.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test7.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Ion Ionescu", -1);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+    }
+
+
+    @org.junit.Test
+    public void saveStudentTestCase8() throws Exception {
+        File f = new File("test8.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test8.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Ion Ionescu", 999);
+        assertTrue(controller.saveStudent(s));
+        assertTrue(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase9() throws Exception {
+        File f = new File("test9.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test9.txt", "laboratories.txt");
+        Student s = new Student("abcd1234", "Ion Ionescu", 1001);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void saveStudentTestCase10() throws Exception {
+        File f = new File("test10.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("test10.txt", "laboratories.txt");
+        Student s = new Student("ab12", "Ion Ionescu", 1001);
+        assertFalse(controller.saveStudent(s));
+        assertFalse(controller.getAllStudents().contains(s));
     }
 
 }

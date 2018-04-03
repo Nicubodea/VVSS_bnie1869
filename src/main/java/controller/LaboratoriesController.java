@@ -53,6 +53,10 @@ public class LaboratoriesController {
         }
     }
 
+    public List<Student> getAllStudents() throws IOException {
+        return this.studentPersistence.getStudentsList();
+    }
+
     public List<Student> passedStudents() throws NumberFormatException,
             IOException, ParseException {
         Map<String, List<Laboratory>> laboratoryMap = this.laboratoryPersistence.getLaboratoryMap();
@@ -88,8 +92,6 @@ public class LaboratoriesController {
                     }
                     indexOf++;
                 }
-
-
                 if (found) {
                     passedStudents.add(studentsList.get(indexOf));
                 }
