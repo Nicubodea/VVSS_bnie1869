@@ -35,7 +35,7 @@ public class Validator {
     }
 
     public static boolean validateGrade(float grade) {
-        if(grade > 1 && grade < 10) {
+        if(grade >= 1 && grade <= 10) {
             return true;
         }
         return false;

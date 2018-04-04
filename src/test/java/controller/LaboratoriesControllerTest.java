@@ -1,5 +1,6 @@
 package controller;
 
+import model.Laboratory;
 import model.Student;
 
 import java.io.File;
@@ -113,6 +114,35 @@ public class LaboratoriesControllerTest {
         Student s = new Student("ab12", "Ion Ionescu", 1001);
         assertFalse(controller.saveStudent(s));
         assertFalse(controller.getAllStudents().contains(s));
+    }
+
+    @org.junit.Test
+    public void laboratoryWBTCondition1() throws Exception {
+        File f = new File("wbt1.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("students.txt", "wbt1.txt");
+        Laboratory l1 = new Laboratory(1, "10/11/2018", 1, "abcd1234");
+        assertTrue(controller.saveLaboratory(l1));
+        assertFalse(controller.addGrade("abcd1234", "1", (float)11.0));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)10.0));
+
+        f.delete();
+    }
+
+    @org.junit.Test
+    public void laboratoryWBTCondition2() throws Exception {
+
+        File f = new File("wbt2.txt");
+        f.createNewFile();
+
+        LaboratoriesController controller = new LaboratoriesController("students.txt", "wbt2.txt");
+
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, (float)1.0, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+        assertFalse(controller.addGrade("abcd1234", "1", (float)0.0));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)1.0));
+
+        f.delete();
     }
 
 }
