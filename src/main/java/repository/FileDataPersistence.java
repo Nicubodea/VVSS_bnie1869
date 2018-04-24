@@ -54,7 +54,7 @@ public class FileDataPersistence {
     }
 
     // Ambiguous what field of "Student" should be passed
-    public void addGrade(String student, String labNumber, float grade)
+    public boolean addGrade(String student, String labNumber, float grade)
             throws IOException, NumberFormatException, ParseException {
         File fileA = new File(file);
         File fileB = new File("temp");
@@ -62,6 +62,7 @@ public class FileDataPersistence {
         BufferedReader reader = new BufferedReader(new FileReader(fileA));
         BufferedWriter writer = new BufferedWriter(new FileWriter(fileB));
 
+        Boolean added = false;
         String line;
 
         while ((line = reader.readLine()) != null) {
@@ -74,6 +75,7 @@ public class FileDataPersistence {
                         Integer.valueOf(temp[2]), temp[4]);
                 laboratory.setGrade(grade);
                 writer.write(laboratory.toString() + "\n");
+                added = true;
             } else {
                 writer.write(line + "\n");
             }
@@ -83,6 +85,7 @@ public class FileDataPersistence {
 
         fileA.delete();
         fileB.renameTo(fileA);
+        return added;
     }
 
     public Map<String, List<Laboratory>> getLaboratoryMap()

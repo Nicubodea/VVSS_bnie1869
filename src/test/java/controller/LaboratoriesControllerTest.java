@@ -145,4 +145,44 @@ public class LaboratoriesControllerTest {
         f.delete();
     }
 
+    @org.junit.Test
+    public void laboratoryWBT1() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("wbts3.txt", "wbt3.txt");
+
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, (float)1.0, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)6.0));
+    }
+
+    @org.junit.Test
+    public void laboratoryWBT2() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("wbts4.txt", "wbt4.txt");
+
+        assertFalse(controller.saveLaboratory(new Laboratory(1,"10/10/2012", 2, "c")));
+        assertFalse(controller.addGrade("abcd1234", "1", (float)6.0));
+    }
+
+    @org.junit.Test
+    public void laboratoryWBT3() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("wbts5.txt", "wbt5.txt");
+
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, (float)1.0, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+        assertFalse(controller.addGrade("abcd1234", "12", (float)6.0));
+    }
+
+    @org.junit.Test
+    public void laboratoryWBT4() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("wbts6.txt", "wbt6.txt");
+
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, (float)1.0, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+        assertFalse(controller.addGrade("akbc4578", "1", (float)6.0));
+    }
+
+
 }
