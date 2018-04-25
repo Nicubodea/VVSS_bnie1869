@@ -4,6 +4,7 @@ import model.Laboratory;
 import model.Student;
 
 import java.io.File;
+import java.util.List;
 
 import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -183,6 +184,42 @@ public class LaboratoriesControllerTest {
         assertTrue(controller.saveLaboratory(l3));
         assertFalse(controller.addGrade("akbc4578", "1", (float)6.0));
     }
+
+    @org.junit.Test
+    public void bigbang1() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("bigbangs1.txt", "bigbang1.txt");
+
+        List<Student> lst = controller.passedStudents();
+
+        assertTrue(lst.contains(new Student("abcd1234", "Abcd Abcd", 932)));
+
+    }
+
+    @org.junit.Test
+    public void bigbang2() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("bigbangs2.txt", "bigbang2.txt");
+
+        assertTrue(controller.saveStudent(new Student("abcd1234", "Abcd Abcd", 932)));
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+
+        Laboratory l4 = new Laboratory(1, "10/11/2018", 2, "abcd1234");
+        assertTrue(controller.saveLaboratory(l4));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)7.0));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)6.0));
+
+        List<Student> lst = controller.passedStudents();
+
+        assertTrue(lst.contains(new Student("abcd1234", "Abcd Abcd", 932)));
+
+        controller.getAllStudents();
+
+        assertTrue(true);
+
+    }
+
 
 
 }
