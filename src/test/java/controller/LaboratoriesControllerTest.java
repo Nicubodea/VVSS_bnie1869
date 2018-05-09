@@ -221,5 +221,56 @@ public class LaboratoriesControllerTest {
     }
 
 
+    @org.junit.Test
+    public void integration1() throws Exception {
+        File f = new File("int1.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("int1.txt", "intl1.txt");
+        Student s = new Student("abcd1234", "Johnny Bravo", 932);
+        assertTrue(controller.saveStudent(s));
+        assertTrue(controller.getAllStudents().contains(s));
+
+        assertTrue(true);
+    }
+
+    @org.junit.Test
+    public void integration2() throws Exception {
+        File f = new File("int2.txt");
+        f.createNewFile();
+        LaboratoriesController controller = new LaboratoriesController("int2.txt", "intl2.txt");
+        Student s = new Student("abcd1234", "Johnny Bravo", 932);
+        assertTrue(controller.saveStudent(s));
+        assertTrue(controller.getAllStudents().contains(s));
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, (float)1.0, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)6.0));
+
+        assertTrue(true);
+
+    }
+
+    @org.junit.Test
+    public void integration3() throws Exception {
+
+        LaboratoriesController controller = new LaboratoriesController("int3.txt", "intl3.txt");
+
+        assertTrue(controller.saveStudent(new Student("abcd1234", "Abcd Abcd", 932)));
+        Laboratory l3 = new Laboratory(1, "10/11/2018", 1, "abcd1234");
+        assertTrue(controller.saveLaboratory(l3));
+
+        Laboratory l4 = new Laboratory(1, "10/11/2018", 2, "abcd1234");
+        assertTrue(controller.saveLaboratory(l4));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)7.0));
+        assertTrue(controller.addGrade("abcd1234", "1", (float)6.0));
+
+        List<Student> lst = controller.passedStudents();
+
+        assertTrue(lst.contains(new Student("abcd1234", "Abcd Abcd", 932)));
+
+        controller.getAllStudents();
+
+        assertTrue(true);
+
+    }
 
 }
