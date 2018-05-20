@@ -2,15 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2a4d60-7153-41d9-b136-4d76c2013a4e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_jimfs_jimfs_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_ibm_icu_icu4j_58_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_openhtmltopdf_openhtmltopdf_core_0_0_1_RC9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_openhtmltopdf_openhtmltopdf_jsoup_dom_converter_0_0_1_RC9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_openhtmltopdf_openhtmltopdf_pdfbox_0_0_1_RC9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_openhtmltopdf_openhtmltopdf_rtl_support_0_0_1_RC9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_opera_operadriver_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_opera_operalaunchers_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_typesafe_config_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_all_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_abbreviation_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_anchorlink_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_aside_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_autolink_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_definition_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_emoji_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_escaped_character_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_footnotes_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_issues_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_strikethrough_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_tables_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_tasklist_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_users_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_ins_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_jekyll_front_matter_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_jekyll_tag_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_superscript_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_tables_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_toc_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_typographic_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_wikilink_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_xwiki_macros_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_yaml_front_matter_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_formatter_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_html_parser_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_jira_converter_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_pdf_converter_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_profile_pegdown_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_youtrack_converter_0_26_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__es_nitaur_markdown_txtmark_0_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_appium_java_client_5_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_cucumber_cucumber_core_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_cucumber_cucumber_jvm_deps_1_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_cucumber_gherkin_5_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_cucumber_tag_expressions_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_vavr_vavr_0_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__io_vavr_vavr_match_0_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_serenity_bdd_serenity_core_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_serenity_bdd_serenity_junit_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_serenity_bdd_serenity_report_resources_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_27.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_27.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_27.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_asciidoctor_asciidoctor_java_integration_0_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_awaitility_awaitility_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_fluentlenium_fluentlenium_core_0_10_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_imgscalr_imgscalr_lib_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_ini4j_ini4j_0_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_jruby_jruby_complete_1_7_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_nibor_autolink_autolink_0_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_openpnp_opencv_3_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_27.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_9_4_5_v20170502.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/bnie1869serenity.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity2/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity2/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity2/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity2/bnie1869serenity2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bnie1869serenity2/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigbang2.txt" afterPath="$PROJECT_DIR$/bigbang2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigbangs2.txt" afterPath="$PROJECT_DIR$/bigbangs2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1.txt" afterPath="$PROJECT_DIR$/test1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test8.txt" afterPath="$PROJECT_DIR$/test8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wbt3.txt" afterPath="$PROJECT_DIR$/wbt3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wbt5.txt" afterPath="$PROJECT_DIR$/wbt5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wbt6.txt" afterPath="$PROJECT_DIR$/wbt6.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,8 +244,8 @@
       <file leaf-file-name="LaboratoriesControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="232" column="25" lean-forward="false" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+            <state relative-caret-position="-286">
+              <caret line="239" column="93" lean-forward="false" selection-start-line="239" selection-start-column="93" selection-end-line="239" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -451,9 +611,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1022,7 +1182,10 @@
       <workItem from="1522608681879" duration="1781000" />
       <workItem from="1522784343580" duration="6174000" />
       <workItem from="1524409409675" duration="6046000" />
-      <workItem from="1525823227974" duration="732000" />
+      <workItem from="1525823227974" duration="2436000" />
+      <workItem from="1525847179381" duration="35000" />
+      <workItem from="1525847742617" duration="819000" />
+      <workItem from="1526830868091" duration="605000" />
     </task>
     <servers />
   </component>
@@ -1059,7 +1222,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16876000" />
+    <option name="totallyTimeSpent" value="20039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1072,37 +1235,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35917115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35917115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32285276" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1494,8 +1657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="232" column="25" lean-forward="false" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+        <state relative-caret-position="-286">
+          <caret line="239" column="93" lean-forward="false" selection-start-line="239" selection-start-column="93" selection-end-line="239" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

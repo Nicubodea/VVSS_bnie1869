@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword water should display the corresponding article","SUCCESS","2018-05-09T09:37:42.983+03:00[Europe/Athens]","0.0","18.62"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2018-05-09T09:38:02.691+03:00[Europe/Athens]","0.0","14.05"
+"Search by keyword story","Searching by keyword cola should display the corresponding article","SUCCESS","2018-05-09T09:38:16.911+03:00[Europe/Athens]","0.0","7.03"
+"Search by keyword story","Searching by ambiguious keyword should display the disambiguation page","PENDING","2018-05-09T09:38:23.94+03:00[Europe/Athens]","0.0","0.35"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2018-05-09T09:38:24.465+03:00[Europe/Athens]","0.0","8.26"

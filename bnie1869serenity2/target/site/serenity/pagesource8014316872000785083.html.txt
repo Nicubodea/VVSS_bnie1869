@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><h1>Add a new student</h1>
+<form action="add.php" method="post">
+Registration number(must be of the form aaaaNNNN)<br />
+<input type="text" name="regnumber" id="regnumber" /><br />
+Name<br />
+<input type="text" name="name" id="name" /><br />
+Group<br />
+<input type="text" name="group" id="group" /><br />
+
+<input type="submit" value="Add" id="add" />
+
+</form>
+
+<h1> List of students </h1>
+<ul>
+<li>aaab1234---gica ionica---932</li><li>aaaa1234---gelu ionut---123</li></ul>
+
+</body></html>
